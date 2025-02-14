@@ -10,10 +10,6 @@ const LogoBar = ({ data }) =>
 {
     return (
         <Flex
-            position = "fixed"
-            top = {5}
-            left = "50%"
-            transform = "translateX(-50%)"
             wrap = "wrap"
             justify = "center"
             gap = {[2, 4, 6]}

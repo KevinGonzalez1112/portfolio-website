@@ -30,8 +30,8 @@ const sections =
     },
     {
         icon: faScrewdriverWrench,
-        link: "#/tools",
-        label: "Tools"
+        link: "#/technical-skills",
+        label: "Technical Skills"
     }
 ]
 
@@ -39,7 +39,7 @@ const Header = () =>
 {
     return (
         <nav>
-            <LogoBar data = {sections}/>
+            <LogoBar data = {sections} />
         </nav>
     )
 }
