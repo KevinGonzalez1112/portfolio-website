@@ -13,7 +13,8 @@ import LogoBar from "./LogoBar";
 
 // Importing Required Images 
 
-import profilePic from "../images/profile-pic.png";
+import BoxTexture from "../images/box-texture.png"
+import ProfilePic from "../images/profile-pic.png";
 
 const socials = 
 [
@@ -41,7 +42,7 @@ const ProfileBox = () =>
             display = "flex"
             flexDirection = "column"
             alignItems = "center"
-            backgroundColor = "#333333"
+            backgroundImage = {BoxTexture}
             textAlign = "center"
             color = "#00BCD4" 
             minHeight = {["auto", "75vh"]}
@@ -55,7 +56,7 @@ const ProfileBox = () =>
                 margin = {10}
             >
                 <Image 
-                    src = {profilePic} 
+                    src = {ProfilePic} 
                     borderRadius = "20%"
                 />
             </Box>
@@ -76,7 +77,6 @@ const ProfileBox = () =>
                     problem-solving, and continuous learning.
                 </Text>
             </Box>
-            
             <Box
                 marginBottom = {5}
             >

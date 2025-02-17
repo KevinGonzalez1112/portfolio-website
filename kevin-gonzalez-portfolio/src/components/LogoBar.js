@@ -1,6 +1,6 @@
 // Importing UI Components
 
-import { Box, Flex, HStack, Tooltip } from "@chakra-ui/react";
+import { Box, Flex, HStack, Link, Tooltip } from "@chakra-ui/react";
 
 // Importing Font Awesome Icon Libraries
 
@@ -13,9 +13,8 @@ const LogoBar = ({ data }) =>
             wrap = "wrap"
             justify = "center"
             gap = {[2, 4, 6]}
-            p = {[2, 4, 6]}
-            backgroundColor = "#333333"
-            color = "#00BCD4"
+            p = {[2, 6, 10]}
+            color = "#FFFFFF"
             borderRadius = "2%"
         >
             <HStack
@@ -30,7 +29,7 @@ const LogoBar = ({ data }) =>
                         hasArrow
                         offset = {[0, 10]}
                     >
-                        <a
+                        <Link
                             href = {logo.link}
                             aria-label = {logo.label}
                         >
@@ -42,7 +41,7 @@ const LogoBar = ({ data }) =>
                                     size = "lg" 
                                 />
                             </Box>
-                        </a>
+                        </Link>
                     </Tooltip>
                 ))
             }
