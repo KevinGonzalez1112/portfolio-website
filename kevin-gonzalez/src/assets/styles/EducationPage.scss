@@ -1,0 +1,15 @@
+.education-container
+{
+    display: flex; 
+    justify-content: flex-start;
+    width: 100vw;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    min-height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+

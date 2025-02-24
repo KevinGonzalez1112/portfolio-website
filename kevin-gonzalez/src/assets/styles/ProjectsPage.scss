@@ -1,0 +1,109 @@
+.projects-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 2.5vh;
+    padding-bottom: 5vh;
+    min-height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #FFFFFF;
+
+    h1
+    {
+        padding-bottom: 5vh;
+    }
+
+    .projects-grid
+    {
+        display: grid;
+        grid-template-columns: repeat(2,  1fr);
+        grid-gap: 5vw;
+        padding-bottom: 2.5vh;
+
+        .project
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+            width: 40vw;
+
+            img
+            {
+                width: 40vw;
+                height: 25vw;
+                border-radius: 5%;
+            }
+
+            a
+            {
+                text-decoration: none;
+            }
+
+            h2
+            {
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.project h2:hover
+{
+    text-decoration: underline;
+}
+
+.zoom:hover 
+{
+    transform: scale(1.05);
+}
+
+@media screen 
+{
+    @media (max-width: 700px)
+    {
+        .projects-container
+        {
+            display: flex;
+            padding-left: 5vw;
+            padding-right: 5vw;
+            padding-bottom: 0;
+
+            h1
+            {
+                padding-bottom: 2.5vh;
+            }
+            
+            .projects-grid
+            {
+                display: block;
+                align-items: center;
+
+                .project
+                {
+                    width: 80vw;
+                    padding-bottom: 5vh;
+
+                    img
+                    {
+                        width: 80vw;
+                        height: 60vw;
+                        border-radius: 5%;
+                    }
+
+                    h2
+                    {
+                        padding-top: 2vh;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }    
+}
