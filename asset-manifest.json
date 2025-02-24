@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.d132feb2.css",
+    "main.js": "/portfolio-website/static/js/main.992f1e90.js",
+    "static/js/453.11b2cfec.chunk.js": "/portfolio-website/static/js/453.11b2cfec.chunk.js",
+    "static/media/background.jpg": "/portfolio-website/static/media/background.0e7a1f7ad6c109d9e25e.jpg",
+    "static/media/profile-pic.png": "/portfolio-website/static/media/profile-pic.3ac619655db9294328b3.png",
+    "static/media/swgoh-tracker.jpg": "/portfolio-website/static/media/swgoh-tracker.b71f03cf41c44411ce2d.jpg",
+    "static/media/diary-app.jpg": "/portfolio-website/static/media/diary-app.4437d7893b6a6294fb04.jpg",
+    "static/media/wikipedia-project.jpg": "/portfolio-website/static/media/wikipedia-project.35f6130d0e3b6c4c4bfa.jpg",
+    "static/media/jobseeker-cv.jpg": "/portfolio-website/static/media/jobseeker-cv.032ff06f35d051b988a0.jpg",
+    "static/media/abc-banking.jpg": "/portfolio-website/static/media/abc-banking.678d7493e0a06ca87eb1.jpg",
+    "static/media/gibraltar-dvla.jpg": "/portfolio-website/static/media/gibraltar-dvla.39281ba789b30b8cd594.jpg",
+    "index.html": "/portfolio-website/index.html",
+    "main.d132feb2.css.map": "/portfolio-website/static/css/main.d132feb2.css.map",
+    "main.992f1e90.js.map": "/portfolio-website/static/js/main.992f1e90.js.map",
+    "453.11b2cfec.chunk.js.map": "/portfolio-website/static/js/453.11b2cfec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d132feb2.css",
+    "static/js/main.992f1e90.js"
+  ]
+}
