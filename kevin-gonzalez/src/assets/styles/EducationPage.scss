@@ -13,3 +13,13 @@
     background-position: center;
 }
 
+@media screen 
+{
+    @media (min-width: 700px)
+    {
+        .vertical-timeline-element-date
+        {
+            color: #FFFFFF;
+        }
+    }
+}
