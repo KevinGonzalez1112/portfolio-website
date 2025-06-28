@@ -28,6 +28,23 @@ import swgohapi from "../assets/images/tech-logos/swgoh-api.svg";
 const personalProjects =
 [
     {
+        title: "SWGOH Tracker", 
+        image: require("../assets/images/projects/swgoh-tracker.jpg"),
+        link: "https://docs.google.com/spreadsheets/d/1j7BHn0893u8NJYHkqLv4QTq-xzSQcQ3_BNtTDwDaCRE/edit?gid=0#gid=0",
+        technologies: 
+            [
+                { image: googlesheets, alt: "Google Sheets" },
+                { image: googleapps, alt: "Google Apps Script" },
+                { image: swgohapi, alt: "SWGOH.gg API" }
+            ],
+        repeat: 5,
+        description: 
+            `This project saw the creation of multiple functions written in Google Apps Script which would allow the user to 
+            retrieve data from the SWGOH.gg API and create several sheets allowing them to track their progress in the Star Wars 
+            Galaxy of Heroes mobile game. The project was then published as a Google Sheets template, which anyone could use to 
+            create their own copy of the tracker. A detailed ReadME on how to use the application can be found on the first sheet.`
+    },
+    {
         title: "Portfolio Website",
         image: require("../assets/images/projects/personal-portfolio.jpg"),
         link: "https://kevingonzalez1112.github.io/portfolio-website/",
@@ -39,26 +56,9 @@ const personalProjects =
             ],
         repeat: 5,
         description:
-            `This portfolio was built using React and SCSS, showcasing my skills and projects. It features a 
-            responsive design, smooth animations, and a user-friendly interface. The website highlights my experience, 
-            education, and personal projects, providing visitors with an overview of my professional journey.`
-    },
-    {
-        title: "SWGOH TRACKER", 
-        image: require("../assets/images/projects/swgoh-tracker.jpg"),
-        link: "https://docs.google.com/spreadsheets/d/1j7BHn0893u8NJYHkqLv4QTq-xzSQcQ3_BNtTDwDaCRE/edit?gid=0#gid=0",
-        technologies: 
-            [
-                { image: googlesheets, alt: "Google Sheets" },
-                { image: googleapps, alt: "Google Apps Script" },
-                { image: swgohapi, alt: "SWGOH.gg API" }
-            ],
-        repeat: 5,
-        description: 
-            `Used to Google Apps Script to retrieve data from the SWGOH.gg API and created a number of sheets
-            where the user could track their progress on several of the metrics relative to the Star Wars Galaxy
-            of Heroes mobile game. A detailed ReadME on how to use the application can be found on the first 
-            sheet.`
+            `This portfolio was built using React and SCSS, showcasing my skills and projects. It features a responsive 
+            design, smooth animations, and a user-friendly interface. The website highlights my experience, education, and 
+            personal projects, providing visitors with an overview of my professional journey.`
     }
 ];
 

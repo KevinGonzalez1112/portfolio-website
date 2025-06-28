@@ -1,10 +1,11 @@
 /*
     Creating a Custom Component that will be used to populate the grid for both sections 
-    (Personal and University). This will be made possible using the data objects passed in 
-    through props.
+    (Personal and University). While also making use of the InfiniteScroll component to 
+    add some interactivity to the page. This will be made possible using the data objects 
+    passed in through props.
 */
 
-const repeatArray = (array, times) => Array(times).fill(array).flat();
+import InfiniteScroll from "./InfiniteScroll";
 
 const ProjectsGrid = (props) =>
 {
@@ -16,27 +17,21 @@ const ProjectsGrid = (props) =>
                     <div className = "project" key = { index }>
 
                         <a href = { item.link }>
-                            <img src = { item.image } alt = { item.title } className = "zoom" />
+                            <img 
+                                src = { item.image } 
+                                alt = { item.title } 
+                                className = "zoom" 
+                            />
                         </a>
 
                         <a href = { item.link }>
                             <h2> { item.title } </h2>
                         </a>
 
-                        <div className = "project-tech-icons-container">
-                            <div className = "project-tech-icons">
-                                { 
-                                    repeatArray(item.technologies, item.repeat).map((techItem, techIndex) => (
-                                        <div className = "project-tech-icon" key = { techIndex }>
-                                            <img 
-                                                src = { techItem.image }
-                                                alt = { techItem.alt }
-                                            />
-                                        </div>   
-                                    ))                              
-                                }
-                            </div>
-                        </div>
+                        <InfiniteScroll 
+                            technologies = { item.technologies } 
+                            repeat = { item.repeat }
+                        />
 
                         <p>
                             { item.description }
@@ -50,4 +45,3 @@ const ProjectsGrid = (props) =>
 }
 
 export default ProjectsGrid;
-
