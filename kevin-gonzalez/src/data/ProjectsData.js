@@ -37,6 +37,7 @@ const personalProjects =
                 { image: javascript, alt: "JavaScript" },
                 { image: scss, alt: "SCSS" }
             ],
+        repeat: 5,
         description:
             `This portfolio was built using React and SCSS, showcasing my skills and projects. It features a 
             responsive design, smooth animations, and a user-friendly interface. The website highlights my experience, 
@@ -52,6 +53,7 @@ const personalProjects =
                 { image: googleapps, alt: "Google Apps Script" },
                 { image: swgohapi, alt: "SWGOH.gg API" }
             ],
+        repeat: 5,
         description: 
             `Used to Google Apps Script to retrieve data from the SWGOH.gg API and created a number of sheets
             where the user could track their progress on several of the metrics relative to the Star Wars Galaxy
@@ -78,6 +80,7 @@ const universityProjects =
                 { image: scikitlearn, alt: "Scikit-learn" },
                 { image: pywikibot, alt: "Pywikibot" }
             ],
+        repeat: 2,
         description:
             `This project was undertaken as part of my MSc Software Engineering degree dissertation project. I chose this topic as
             Wikipedia's crowd-sourced model raises concerns about article quality, leading to a grading system by WikiProjects 
@@ -97,6 +100,7 @@ const universityProjects =
                 { image: php, alt: "PHP" },
                 { image: mysql, alt: "MySQL" }
             ],
+        repeat: 3,
         description: 
             `This prototype was created as part of my BSc Computer Science degree dissertation project, the main aim 
             of the project was the following: 'To reduce the amount of time wasted by lost forms and the current inefficient 
@@ -115,6 +119,7 @@ const universityProjects =
                 { image: reactasyncstorage, alt: "React Async Storage" },
                 { image: expocamera, alt: "Expo Camera" }
             ],
+        repeat: 4,
         description: 
             `A diary application created for the fictional Kingston Primary School where in the scenario we were 
             requested to create an application that would aim to assist parents/guardians in keeping track of their 
@@ -130,6 +135,7 @@ const universityProjects =
             [
                 { image: processing, alt: "Processing" }
             ],
+        repeat: 14,
         description:
             `Developed an interactive Boids Flocking Simulation using the Processing environment to explore emergent behavior in artificial 
             life. This project models the natural movement of flocks, such as birds or fish schools, using Craig Reynolds’ Boids algorithm. The 
@@ -148,6 +154,7 @@ const universityProjects =
                 { image: php, alt: "PHP" },
                 { image: mysql, alt: "MySQL" }
             ],
+        repeat: 3,
         description:
             `A fully functional banking application prototype that allows users to deposit, withdraw, transfer funds, set up direct debits, 
             view transaction history, and generate bank statements. Built using HTML, CSS, JavaScript, PHP, and SQL, the app ensures secure 
@@ -165,6 +172,7 @@ const universityProjects =
                 { image: php, alt: "PHP" },
                 { image: mysql, alt: "MySQL" }
             ],
+        repeat: 3,
         description: 
             `This project resulted in the creation of a job portal for jobseekers and recruiters. The aim was to allow Jobseekers to 
             create accounts, input personal details, qualifications, and skills, so they could then generate a styled CV with just one 

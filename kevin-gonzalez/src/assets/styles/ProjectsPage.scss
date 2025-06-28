@@ -64,13 +64,15 @@
                 {
                     display: flex; 
                     flex-direction: row;
-                    gap: 1rem;
+                    gap: 0.833vw;
 
-                    animation: loop 40s linear infinite;
+                    width: 80vw;
+
+                    animation: loop 20s linear infinite;
 
                     .project-tech-icon img 
                     {
-                        max-width: 8vw;
+                        max-width: 5vw;
                         max-height: 4vh;
                     }
 

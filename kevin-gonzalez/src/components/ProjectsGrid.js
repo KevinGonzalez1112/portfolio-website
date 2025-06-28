@@ -4,6 +4,8 @@
     through props.
 */
 
+const repeatArray = (array, times) => Array(times).fill(array).flat();
+
 const ProjectsGrid = (props) =>
 {
     return (
@@ -24,14 +26,14 @@ const ProjectsGrid = (props) =>
                         <div className = "project-tech-icons-container">
                             <div className = "project-tech-icons">
                                 { 
-                                    item.technologies.map((techItem, techIndex) => (
+                                    repeatArray(item.technologies, item.repeat).map((techItem, techIndex) => (
                                         <div className = "project-tech-icon" key = { techIndex }>
                                             <img 
                                                 src = { techItem.image }
                                                 alt = { techItem.alt }
                                             />
                                         </div>   
-                                    )) 
+                                    ))                              
                                 }
                             </div>
                         </div>
@@ -48,3 +50,4 @@ const ProjectsGrid = (props) =>
 }
 
 export default ProjectsGrid;
+
