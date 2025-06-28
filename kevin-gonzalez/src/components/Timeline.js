@@ -10,7 +10,6 @@ const Timeline = (props) =>
 {
     return (
         <VerticalTimeline>
-
             {
                 props.data.map((item, index) => (
                     <VerticalTimelineElement
@@ -28,7 +27,6 @@ const Timeline = (props) =>
                     </VerticalTimelineElement>
                 ))
             } 
-
         </VerticalTimeline>
     )
 }

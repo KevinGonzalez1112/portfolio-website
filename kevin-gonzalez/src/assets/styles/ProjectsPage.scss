@@ -3,15 +3,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
     width: 100%;
+    min-height: 90vh;
     padding-top: 2.5vh;
     padding-bottom: 5vh;
-    min-height: 100vh;
-    background-image: url("../images/background.jpg");
+    
+    background-image: url("../images/other/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+
     color: #FFFFFF;
 
     h1
@@ -24,6 +27,7 @@
         display: grid;
         grid-template-columns: repeat(2,  1fr);
         grid-gap: 5vw;
+
         padding-bottom: 2.5vh;
 
         .project
@@ -31,13 +35,16 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            text-align: left;
+
             width: 40vw;
+
+            text-align: left;
 
             img
             {
                 width: 40vw;
                 height: 25vw;
+
                 border-radius: 5%;
             }
 
@@ -46,9 +53,49 @@
                 text-decoration: none;
             }
 
+            .project-tech-icons-container
+            {
+                width: 40vw;
+
+                overflow: hidden;
+                white-space: nowrap;
+
+                .project-tech-icons
+                {
+                    display: flex; 
+                    flex-direction: row;
+                    gap: 1rem;
+
+                    animation: loop 40s linear infinite;
+
+                    .project-tech-icon img 
+                    {
+                        max-width: 8vw;
+                        max-height: 4vh;
+                    }
+
+                    @keyframes loop 
+                    {
+                        0% 
+                        {
+                            transform: translateX(0);
+                        }
+                        100% 
+                        {
+                            transform: translateX(-50%);
+                        }
+                    }
+                }
+            }
+
             h2
             {
                 color: #FFFFFF;
+            }
+
+            p 
+            {
+                text-align: center
             }
         }
     }

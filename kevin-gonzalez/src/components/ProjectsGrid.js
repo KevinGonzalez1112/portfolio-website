@@ -21,6 +21,21 @@ const ProjectsGrid = (props) =>
                             <h2> { item.title } </h2>
                         </a>
 
+                        <div className = "project-tech-icons-container">
+                            <div className = "project-tech-icons">
+                                { 
+                                    item.technologies.map((techItem, techIndex) => (
+                                        <div className = "project-tech-icon" key = { techIndex }>
+                                            <img 
+                                                src = { techItem.image }
+                                                alt = { techItem.alt }
+                                            />
+                                        </div>   
+                                    )) 
+                                }
+                            </div>
+                        </div>
+
                         <p>
                             { item.description }
                         </p>

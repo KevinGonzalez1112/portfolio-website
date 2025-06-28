@@ -10,7 +10,7 @@ const educationTimeline =
         icon: <SchoolIcon />,
         title: "Meta Front-End Developer",
         provider: "Coursera",
-        date: "December 2024 - Present",
+        date: "January 2025 - Present",
         description: 
             `Currently working towards completing the Meta Front-End Developer Professional Certificate on Coursera, a 
             comprehensive program designed to build expertise in modern web development. Throughout the course, I have 

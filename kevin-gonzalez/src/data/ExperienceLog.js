@@ -9,7 +9,7 @@ const experienceTimeline =
     {
         icon: <WorkIcon />,
         title: "Freelance Developer",
-        provider: "Sel-Employed",
+        provider: "Self-Employed",
         date: "February 2024 - Present",
         description: 
             `I was able to continue working on a Wikipedia Article Classification project post University, 

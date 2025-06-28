@@ -23,7 +23,7 @@ const HomePage = () =>
             <div className = "container">
                 <div className = "about-me">
                     <div className = "profile-image">
-                        <img src = { require("../assets/images/profile-pic.png") } alt = "Avatar" />
+                        <img src = { require("../assets/images/other/profile-pic.png") } alt = "Avatar" />
                     </div>
                     <div className = "content">
                         <div className = "social-icons">
